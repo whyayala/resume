@@ -86,6 +86,28 @@ hr.star-primary:after {
     background-color: #fff;
 }
 
+/*Uiowa Starlight*/
+hr.uiowa-star-light{
+    margin: 25px auto 30px;
+    padding: 0;
+    max-width: 250px;
+    border: 0;
+    border-top: solid 5px;
+    text-align: center;
+    border-color: #000;
+}
+hr.uiowa-star-light:after {
+    content: "\f005";
+    display: inline-block;
+    position: relative;
+    top: -.8em;
+    padding: 0 .25em;
+    font-family: FontAwesome;
+    font-size: 2em;
+    color: #000;
+    background-color: #FFE100;
+}
+
 .img-centered {
     margin: 0 auto;
 }
@@ -191,8 +213,8 @@ section h2 {
 }
 
 section.success {
-    color: #fff;
-    background: #18bc9c;
+    color: #000;
+    background: #FFE100;/*Uiowa official gold*/
 }
 
 section.success a,
@@ -469,4 +491,25 @@ footer .footer-below {
     opacity: 0;
 }
 
-.img-scale {width: 10%;}
+/*Begin custom CSS for uiowa branded panel*/
+
+.panel-uiowa {
+  border-color: transparent;
+}
+.panel-uiowa > .panel-heading {
+  color: #FFE100;
+  background-color: #000;
+  border-color: #000;
+}
+.panel-uiowa > .panel-heading + .panel-collapse > .panel-body {
+  border-top-color: #000;
+}
+.panel-uiowa > .panel-heading .badge {
+  color: #2c3e50;
+  background-color: #ffffff;
+}
+.panel-uiowa > .panel-footer + .panel-collapse > .panel-body {
+  border-bottom-color: #000;
+}
+
+/*End custom CSS*/
