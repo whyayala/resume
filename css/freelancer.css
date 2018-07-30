@@ -516,3 +516,26 @@ footer .footer-below {
     padding-bottom:20px;
 }
 /*End custom CSS*/
+
+/*Begin custom FA colors*/
+.fa-laravel:before {
+    color: #F05340;
+}
+
+.fa-php:before{
+    color: #4f5b93;
+}
+.icon-Amazon_Web_Services_Logo .path1:before {
+  content: "\e900";
+  color: #252f3e;
+}
+.icon-Amazon_Web_Services_Logo .path2:before {
+  content: "\e901";
+  color: #f90;
+  margin-left: -1.669921875em;
+}
+.icon-Amazon_Web_Services_Logo .path3:before {
+  content: "\e902";
+  color: #f90;
+  margin-left: -1.669921875em;
+}
