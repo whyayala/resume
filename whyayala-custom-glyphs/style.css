@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?66d9un');
-  src:  url('fonts/icomoon.eot?66d9un#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?66d9un') format('truetype'),
-    url('fonts/icomoon.woff?66d9un') format('woff'),
-    url('fonts/icomoon.svg?66d9un#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?75keiu');
+  src:  url('fonts/icomoon.eot?75keiu#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?75keiu') format('truetype'),
+    url('fonts/icomoon.woff?75keiu') format('woff'),
+    url('fonts/icomoon.svg?75keiu#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -24,6 +24,29 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-Git-logo .path1:before {
+  content: "\e90c";
+  color: rgb(65, 48, 0);
+}
+.icon-Git-logo .path2:before {
+  content: "\e90d";
+  margin-left: -2.39453125em;
+  color: rgb(65, 48, 0);
+}
+.icon-Git-logo .path3:before {
+  content: "\e90e";
+  margin-left: -2.39453125em;
+  color: rgb(65, 48, 0);
+}
+.icon-Git-logo .path4:before {
+  content: "\e90f";
+  margin-left: -2.39453125em;
+  color: rgb(240, 81, 51);
+}
+.icon-laravel:before {
+  content: "\e910";
+  color: #fb503b;
+}
 .icon-Ruby_On_Rails_Logo .path1:before {
   content: "\e904";
   color: rgb(0, 0, 0);
